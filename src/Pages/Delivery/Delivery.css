@@ -1,0 +1,48 @@
+.delivery{
+    width: 100%;
+   
+}
+.del{
+    width: 50%;
+}
+.page_ovd_wrapper .row {
+    display: flex;
+    flex-wrap: inherit;
+    margin: 0;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.page_ovd_wrapper .page_ovd_open_wrapper .page_ovd_open_item .page_ovd_info {
+    position: relative;
+    padding: 30px 0 15px;
+    clear: both;
+}
+.delivery_ic{
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+}
+
+.delivery_icon {
+    position: relative;
+    width: 100%;
+    height: 100px; /* Высота контейнера на всю высоту экрана */
+    overflow: hidden; /* Скрыть часть изображения, выходящую за пределы контейнера */
+  }
+  
+  .delivery_ic {
+    position: absolute;
+    width: 100px; /* Ширина изображения */
+    height: 100px; /* Высота изображения */
+    animation: moveForward 5s linear infinite; /* Анимация */
+  }
+  
+  @keyframes moveForward {
+    0% {
+      left: 0; /* Начальное положение (левый край) */
+    }
+    100% {
+      left: calc(100% - 100px); /* Конечное положение (правый край минус ширина изображения) */
+    }
+  }

@@ -1,0 +1,137 @@
+
+.company-details {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.company-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.company-details .details {
+    font-size: 16px;
+}
+
+
+.company-details .details p {
+    margin-bottom: 10px;
+}
+
+.company-details .details p strong {
+    display: inline-block;
+    width: 200px;
+}
+.book .page_tit{
+	margin-bottom: 24px;
+    text-align: center;
+}
+.book .page_desc{
+	max-width: 545px;
+	margin: 0 auto 72px;
+}
+.form_in{
+	position: relative;
+	padding: 42px 49 px;
+	background: #fff;
+	border-radius: 16px;
+	max-width: 812px;
+	margin: 0 auto ;
+	box-shadow:0 3px 60px 0 rgba(0, 0,0,0.08) ;
+}
+.form_input{
+	width: calc(50% - 12px);
+	
+	margin-bottom: 24px;
+}
+.form_input__big{
+	width: 100%;
+}
+.form_tit{
+	display: block;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+.input{
+	display: block;
+	border-radius: 72px;
+	border: 1px solid #dbdfd0;
+	padding: 24px;
+}
+.form_btn{
+	width: 100%;
+}
+.form_btn .btn{
+	
+width: 100%;
+padding: 21px 24px;
+}
+.map{
+	height: 767px;
+	background: red;
+	margin-top: -245px;
+	
+}
+.adress{
+	background: #fff;
+	margin-top: -245px;
+	padding-top: 350px;
+}
+.adress_in{
+	max-width: 776px;
+	margin: 0 auto;
+}
+.adress_card{
+	width: calc((100%-180px) / 3);
+}
+.adress_tit{
+	
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.adress_txt{
+
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.adress_link{
+	color: rgba(173, 52, 62, 1);
+
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: -0.03em;
+	text-align: left;
+	
+}
+.book{
+	padding-bottom: 0;
+}
+.btn__bd-grey{
+	border-color: #dbdfd0;
+}
+
+.btn:hover,
+.btn_red {
+	background: #ad343e;
+	color: white;
+	border-color: #ad343e;
+}
+
+.btn_red:hover {
+	background: white;
+	border-color: #2c2f24;
+	color: #182226;
+}

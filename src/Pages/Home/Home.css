@@ -1,0 +1,182 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .slider-container {
+    width: 100%;
+    height: 400px; /* Измените высоту слайдера по вашему усмотрению */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slider {
+    display: flex;
+    width: 300%; /* Общая ширина слайдера будет равна ширине одного слайда, умноженной на количество слайдов */
+    animation: slideAnimation 10s infinite;
+  }
+  
+  .slide {
+    flex: 1;
+    height: 100%;
+  }
+ .swipper-button-next, .swiper-rtl .swipper-button-prev{
+  right: 140px;
+  left: auto;
+ }
+  
+ 
+  @keyframes slideAnimation {
+    0% {
+      transform: translateX(0%);
+    }
+    33.33% {
+      transform: translateX(-100%);
+    }
+    66.66% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+
+.card_middle {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: auto;
+    margin: 20px;
+    width: 40%;
+    
+}
+.middle{
+  margin-bottom: 20px;
+}
+
+.mid{
+  margin-bottom: 20px;
+}
+.container_mid{
+  width: 100%;
+}
+.card{
+  width: 18rem;
+} 
+.image_container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.image_container img {
+  display: block;
+}
+
+.centered_text {
+  position: absolute;
+  top: 50%; /* Положение внутреннего изображения по вертикали */
+  left: 150%;
+  transform: translate(-50%, -50%);
+  color:black; /* Цвет текста */
+  font-size:16px; /* Размер текста */
+  font-family: Arial, sans-serif; /* Шрифт */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень текста для лучшей читабельности */
+  width: 400px;
+  text-align: center;
+  font-weight: 400;
+line-height: 27px;
+ 
+}
+
+ .point_left{
+	width: 400px;
+
+
+ }
+ .point_tit{
+	text-align: center;
+	font-family: Fraunces;
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 48px;
+	letter-spacing: 0em;
+	text-align: left;
+  margin-bottom: 20px;
+	
+ }
+.point_p{
+  margin-top: 30px;
+	font-family: Space Grotesk;
+font-size: 30px;
+font-weight: 400;
+line-height: 27px;
+
+
+
+  color:black; /* Цвет текста */
+  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень текста для лучшей читабельности */
+
+}
+
+
+
+.point_right{
+	width: 400px;
+
+
+
+}
+.innerimg {
+  position: relative;
+  width: 400px; /* Ширина контейнера */
+  height: 300px; /* Высота контейнера */
+
+  margin-bottom: 30px;
+}
+.outer-image {
+
+  width: 100%;
+  height: 100%;
+}
+
+.inner-image {
+
+  width: 50%; /* Ширина внутреннего изображения */
+  height: 50%; /* Высота внутреннего изображения */
+  position: absolute;
+  top: 50%; /* Положение внутреннего изображения по вертикали */
+  left: 43%; /* Положение внутреннего изображения по горизонтали */
+}
+.animated-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.animated {
+  display: inline-block;
+  animation: bounce 1s infinite alternate; /* Применяем анимацию */
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0); /* Начальная позиция */
+  }
+  100% {
+    transform: translateY(-10px); /* Конечная позиция */
+    color:orange;
+  }
+  0% {
+    opacity: 1; /* Полная видимость */
+  }
+  50% {
+    opacity: 0; /* Полностью невидимый */
+  }
+  100% {
+    opacity: 1; /* Полная видимость */
+  }
+}
