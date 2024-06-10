@@ -1,8 +1,8 @@
 export default function ThankYou() {
   return (
     <div className="ThankYou">
-      <h1>Thank You!</h1>
-      <p>Your order has been received.</p>
+      <h1>Спасибо за покупку!</h1>
+      <p>Ваш заказ отправлен.</p>
     </div>
   )
 }
