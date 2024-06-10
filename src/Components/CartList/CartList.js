@@ -35,10 +35,10 @@ export default function CartList() {
           type="number"
           value={cart[product.name] }
           min={1}
-          
+          className="CartCount"
           onChange={(event) => onQuantityChange(product, +event.target.value)} />
         <span>{(cart[product.id] * product.price).toFixed(2)}сом</span>
-        <i className="fa-solid fa-xmark" onClick={() => onItemRemove(product)} />
+        <i className="CartDelete" onClick={() => onItemRemove(product)} />
           </div>
       </div>
     ));
