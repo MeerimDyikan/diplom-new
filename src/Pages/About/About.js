@@ -1,6 +1,5 @@
 import './About.css';
-import aboutImg from "../../images/Interest_1_7_2024-ru-en.jpg"
-import aboutImage1 from "../../images/about2.webp"
+
 import aboutImage2 from "../../images/aboutball5.webp"
 import aboutImage3 from "../../images/about6.webp"
 import aboutImage4 from "../../images/about7.webp"

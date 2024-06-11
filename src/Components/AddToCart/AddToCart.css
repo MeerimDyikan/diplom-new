@@ -1,13 +1,15 @@
 .AddToCart button {
   padding: 2px 10px;
   margin-right: 5px;
-  background-color:black;
+  background-color:White;
   border: none;
-  color:white;
+  color:black;
   border-radius: 5px;
   font-family: inherit;
   transition: all 100ms linear;
  
+ justify-content: center;
+
 }
 .AddToCart button:hover {
   background-color: grey;
