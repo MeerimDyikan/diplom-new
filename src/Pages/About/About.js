@@ -10,16 +10,10 @@ import aboutImage6 from "../../images/about9.webp"
 function About() {
   return (
     <>
-     {/* <div>
-      <h2>Видео</h2>
-      <video width="320" height="240" controls>
-        <source src={aboutVideo} type="video/mp4" />
-       
-      </video>
-    // </div> */}
+   
     <div className="card2">
             <div class="content">
-                <h2>ДОБРО ПОЖАЛОВАТЬ</h2>
+                <h2 className='wel'>ДОБРО ПОЖАЛОВАТЬ</h2>
                 <p>В МИР КРАСИВЫХ РЕШЕНИЙ И ВДОХНОВЛЯЮЩИХ ИДЕЙ<br /> ДЛЯ ВАС И ВАШИХ БЛИЗКИХ</p>
             </div>
        

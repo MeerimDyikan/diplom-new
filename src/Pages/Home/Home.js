@@ -10,7 +10,7 @@ import middleImg1 from "../../images/Middle-2-8-2024.jpg"
 import vomoImg from "../../images/vomo.jpg"
 import bonusImg1 from "../../images/ideo1.jpg"
 import bonusImg2 from "../../images/bonus2.jpg"
-
+import vomoImg2 from "../../images/felice.jpg"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -18,8 +18,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Link } from 'react-router-dom';
 
-import video from '../../video/video_2024-05-22_22-12-55.mp4'
-
+import video from '../../video/video_2024-05-22_22-12-55.mp4';
 
 function Home() {
   return (
@@ -59,7 +58,7 @@ function Home() {
         </div>
 
       </div>
-
+      <h3  className='head'>ВАС МОЖЕТ ЗАИНТЕРЕСОВАТЬ</h3>
       <div className="innerimg flex"><div className="outer-image"><img src={bonusImg2} alt="" /><div className="inner-image"><img src={bonusImg1} alt="" />
 
       </div>
@@ -68,29 +67,29 @@ function Home() {
         <div className="centered_text">Любой дезодорант-спрей iDeo со скидкой 50% всего за 205 KGS при покупке по каталогу за каждые 525 KGS в заказе!</div></div>
 
 
+		
+        <div className="innerimg flex"><div className="outer-image"><img src={vomoImg} alt="" /><div className="inner-image1"><img src={vomoImg2} alt="" />
 
+</div>
 
-      <div className="points flex">
-        <div className="point_left">
-
-          <div className="animated-text">
-            <h1><span className="animated">Donna & Uomo Felice</span></h1>
-            <p className="point_p">У счастья есть свой аромат – искристый, задорный, наполненный энергией сицилийских фруктов..</p>
-          </div>
-
-        </div>
-        <div className="point_right">
-          <div className="img"><img src={vomoImg} alt="" /></div>
-        </div>
-      </div>
-      <div className="video1">
-          <video width="100%" muted autoPlay>
+</div>
+  <div className="centered_text">У счастья есть свой аромат – искристый, задорный, наполненный энергией сицилийских фруктов..</div></div>
+       <h3  className='head'>Распаковка</h3>
+      <div className="video1 flex">
+          <video width="100%" muted autoPlay className="video3">
             <source src={video} type="video/mp4" />
           </video>
+         
+          <video width="100%" muted autoPlay className="video3">
+            <source src={video} type="video/mp4" />
+          </video>
+          <video width="100%" muted autoPlay className="video3">
+            <source src={video} type="video/mp4"  />
+          </video>
       </div>
-        
+       
      </>
     );
 
 };
-export default Home
+export default Home;

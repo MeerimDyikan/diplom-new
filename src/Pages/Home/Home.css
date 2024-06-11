@@ -80,7 +80,7 @@ body, html {
 .centered_text {
   position: absolute;
   top: 50%; /* Положение внутреннего изображения по вертикали */
-  left: 150%;
+  left: 180%;
   transform: translate(-50%, -50%);
   color:black; /* Цвет текста */
   font-size:16px; /* Размер текста */
@@ -153,30 +153,20 @@ line-height: 27px;
   top: 50%; /* Положение внутреннего изображения по вертикали */
   left: 43%; /* Положение внутреннего изображения по горизонтали */
 }
-.animated-text {
-  text-align: center;
-  margin-bottom: 20px;
-}
+.inner-image1 {
 
-.animated {
-  display: inline-block;
-  animation: bounce 1s infinite alternate; /* Применяем анимацию */
+  width: 40%; /* Ширина внутреннего изображения */
+  height: 40%; /* Высота внутреннего изображения */
+  position: absolute;
+top:10%;
+  left: 59%; /* Положение внутреннего изображения по горизонтали */
 }
-@keyframes bounce {
-  0% {
-    transform: translateY(0); /* Начальная позиция */
-  }
-  100% {
-    transform: translateY(-10px); /* Конечная позиция */
-    color:orange;
-  }
-  0% {
-    opacity: 1; /* Полная видимость */
-  }
-  50% {
-    opacity: 0; /* Полностью невидимый */
-  }
-  100% {
-    opacity: 1; /* Полная видимость */
-  }
+.video3{
+ width: 270px;
+  height: auto;
+  border-radius: 10px;
+}
+.head {
+  font-size: 40px;
+  margin-bottom: 20px;
 }

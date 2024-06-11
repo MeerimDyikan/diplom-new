@@ -20,7 +20,7 @@ export default function Product() {
         <img src={product.image} alt={product.name} className="product_img" />
       </div>
       <div>
-        <h1>{product.name}</h1>
+        <h1 className="pro">{product.name}</h1>
         <p><strong>Цена по акции:</strong> {product.price}сом</p>
        
         <p><strong>Описание: </strong>{product.desc}</p>
