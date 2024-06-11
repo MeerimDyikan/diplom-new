@@ -43,16 +43,16 @@ export default function OrderForm({ active, setActive }) {
         <div className="popup-body">
           <form onSubmit={onFormSubmit} id="window">
             <label>
-              <input type="text" name="name" placeholder="Name" required />
+              <input type="text" name="name" placeholder="ФИО" required />
             </label>
             <label>
-              <input type="tel" name="phone" placeholder="Phone" required />
+              <input type="tel" name="phone" placeholder="телефон" required />
             </label>
             <label>
-              <input type="text" name="address" placeholder="Country, city, street" required />
+              <input type="text" name="address" placeholder="Страна, город, улица" required />
             </label>
             <div>
-              <Button>Submit</Button>
+              <Button>Вход</Button>
             </div>
           </form>
         </div>
