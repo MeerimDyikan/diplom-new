@@ -13,7 +13,7 @@ function Total({ onOrder }) {
   const totalItems = Object.values(cart).reduce((sum, qty) => sum + qty, 0);
 
   return (
-    <div className="Total">
+    <div className="total">
       <h2>Общая:</h2>
       <p>Количество: {totalItems}</p>
       <p>Цена: {totalPrice} сом</p>

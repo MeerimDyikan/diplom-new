@@ -1,5 +1,9 @@
 import './Delivery.css';
 import deliveryImg from "../../images/3741751-bussiness-dellivery-ecommerce-marketplace-onlinestore-store_108906.svg"
+import imageic from "../../images/07.svg"
+import imageic1 from "../../images/08.svg"
+import imageic2 from "../../images/09.svg"
+import imageic3 from "../../images/10.svg"
 function Delivery() {
     return (
         <>
@@ -13,7 +17,8 @@ function Delivery() {
            <div className="delivery_icon "><img src={deliveryImg} alt="" class="delivery_ic"/>
          
          </div>
-        
+       
+         
           
 
 	
