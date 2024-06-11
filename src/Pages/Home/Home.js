@@ -19,7 +19,8 @@ import 'swiper/css/scrollbar';
 import { Link } from 'react-router-dom';
 
 import video from '../../video/video_2024-05-22_22-12-55.mp4';
-
+import video2 from "../../video/video2.mp4"
+import video3 from "../../video/video3.mp4"
 function Home() {
   return (
     <>
@@ -81,10 +82,10 @@ function Home() {
           </video>
          
           <video width="100%" muted autoPlay className="video3">
-            <source src={video} type="video/mp4" />
+            <source src={video2} type="video/mp4" />
           </video>
           <video width="100%" muted autoPlay className="video3">
-            <source src={video} type="video/mp4"  />
+            <source src={video3} type="video/mp4"  />
           </video>
       </div>
        

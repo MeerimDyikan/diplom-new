@@ -106,13 +106,16 @@ input, button, textarea {
   margin-right: 10px;
 }
 
-/* .fa-xmark {
-  cursor: pointer;
-} */
+
 .inputs{
   width: 100%;
   text-align: center;
   margin: 0 !important;
   padding: 5px 0 5px 0 !important;
   line-height: 20px;
+}
+.CartDelete{
+  width: 100px;
+  height: 100px;
+  background-image: url(../../images/delete_remove_bin_icon-icons.com_72400.svg);
 }
