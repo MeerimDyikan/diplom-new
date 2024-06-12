@@ -1,4 +1,4 @@
-.total {
+.Total {
     position: fixed; 
     top: 50%; 
     left: 50%;
@@ -7,4 +7,10 @@
     padding: 20px; 
     border: 1px solid #ccc; 
     border-radius: 5px; 
+  }
+  .total_txt{
+    margin-bottom: 20px;
+  }
+  .total_tit{
+    margin-bottom: 20px;
   }
