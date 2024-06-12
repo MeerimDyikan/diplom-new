@@ -14,9 +14,9 @@ function Total({ onOrder }) {
 
   return (
     <div className="total">
-      <h2>Общая:</h2>
-      <p>Количество: {totalItems}</p>
-      <p>Цена: {totalPrice} сом</p>
+      <h2 className="total_tit">Итог:</h2>
+      <p className="total_txt" >Количество: {totalItems}</p>
+      <p className="total_txt">Цена: {totalPrice} сом</p>
     </div>
   );
 }

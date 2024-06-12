@@ -1,5 +1,5 @@
 import './Contacts.css';
-
+import PaymentForm from '../../Components/PaymentForm/PaymentForm';
 function Contacts() {
   return (
     <>
@@ -76,7 +76,7 @@ function Contacts() {
 		</div>
 	</section>
 	
-	
+	<PaymentForm/>
 
 
 
