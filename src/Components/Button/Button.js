@@ -2,7 +2,7 @@ import './Button.css';
 
 function Button() {
   return (
-    <div className=" button flex " >
+    <div className=" button  " >
     <button className="Btn">вход</button>
    
     </div>
