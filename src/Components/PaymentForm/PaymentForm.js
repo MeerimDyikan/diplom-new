@@ -30,7 +30,7 @@ function PaymentForm() {
 
   return (
     <div className="payment-form">
-      <h2>Payment Details</h2>
+      <h2>Способы оплаты</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="cardNumber">Card Number:</label>
@@ -66,12 +66,12 @@ function PaymentForm() {
             value={paymentMethod}
             onChange={handlePaymentMethodChange}
           >
-            <option value="">Select Payment Method</option>
+            <option value="">Способы оплаты</option>
             <option value="cash">Cash</option>
             <option value="creditCard">Credit Card</option>
           </select>
         </div>
-        <button type="submit">Pay Now</button>
+        <button type="submit">Оплатить</button>
       </form>
     </div>
   );
